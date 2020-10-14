@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>HTML Form</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <link href="https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Mansalva&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <div id="header-container">
+      <header>
+        <h1>Message me</h1>
+      </header>
+    </div>
+    <form action="https://formspree.io/f/mbjpggek" method="POST">
+      <label>
+        Your name:
+        <input type="text" name="_replyto">
+      </label>
+      <label>
+        Your email:
+        <input type="text" name="_replyto">
+      </label>
+      <label>
+        Your message:
+        <textarea name="message"></textarea>
+      </label>
+      <!-- <label>
+        Additional contact:
+        <input type="text" name="_replyto" placeholder="@moorcode, (212)123-7654">
+      </label> -->
+      <button type="submit">Send</button>
+    </form>
+
+    <script src="script.js"></script>
+  </body>
+</html>
